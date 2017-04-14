@@ -1,3 +1,9 @@
+# Exploratory Text Analysis in R
+# Workshop by Carolyn Moritz and Sarah Stanley
+# topicmodel.R by Carolyn Moritz 
+# Based off of "Text Analysis for Students of Literature" by Matthew Jockers
+# Last updated 2017/04/12
+
 # Install XML library
 # Get files from folder XMLAuthorCorpus
 # Create vector of file names

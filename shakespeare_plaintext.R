@@ -1,3 +1,8 @@
+# Exploratory Text Analysis in R
+# Workshop by Carolyn Moritz and Sarah Stanley
+# shakespeare_plaintext.R by Sarah Stanley
+# Last updated 2017/04/12
+
 plays.v <- scan("shakespeare.txt", what = "character", sep="\n")
 
 #TEXT PREP

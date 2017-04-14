@@ -1,5 +1,6 @@
 # Exploratory Text Analysis in R
 # Workshop by Carolyn Moritz and Sarah Stanley
+# startup.R by Carolyn Moritz
 # Last updated 2017/04/12
 
 # SECTION 1: SETUP & INTRODUCTION
@@ -33,8 +34,4 @@ y <- word(a, c(1:13))
 
 corpus <- paste(y[1:4], collapse=" ")
 
-str_to_title(corpus)
-
-# All warmed up? Let's get to work!
-# Import datalitfsu3.RProj from GitHub
 str_to_title(corpus)
