@@ -37,3 +37,4 @@ str_to_title(corpus)
 
 # All warmed up? Let's get to work!
 # Import datalitfsu3.RProj from GitHub
+str_to_title(corpus)

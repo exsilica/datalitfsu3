@@ -8,7 +8,11 @@ files.v <- dir(path=inputDir, pattern=".*xml")
 # Text segmentation
 chunk.size <- 1000 # number of words per chunk
 
-# Explain!
+# This is a custom function!
+# By now you recgonize much of this text preparation
+# Initialize values from XML into paras variable
+# Creat list of words, unlist and bring it into a
+
 makeFlexTextChunks <- function(doc.object, chunk.size=1000, percentage=TRUE){ 
   paras <- getNodeSet(doc.object, "/d:TEI/d:text/d:body//d:p", 
                       c(d = "http://www.tei-c.org/ns/1.0"))
@@ -90,7 +94,7 @@ colnames(topic.words.m) <- vocabulary
 topic.words.m[1:3, 1:3]
 
 # Let's look at specific keywords
-keywords <- c("california", "ireland") 
+kjkjkeywords <- c("california", "ireland") 
 topic.words.m[, keywords]
 
 # Which row has highest concentration of key terms?
